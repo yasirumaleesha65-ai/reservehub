@@ -1,0 +1,58 @@
+import type { Resource } from "@/types/resource";
+
+export const sampleResources: Resource[] = [
+  {
+    id: "resource-1",
+    name: "Conference Room A",
+    description: "A spacious room for team meetings and presentations.",
+    category: "MEETING_ROOM",
+    location: "Main office, Floor 2",
+    capacity: 12,
+    isActive: true,
+  },
+  {
+    id: "resource-2",
+    name: "Meeting Room B",
+    description: "A smaller room ideal for interviews and discussions.",
+    category: "MEETING_ROOM",
+    location: "Main office, Floor 1",
+    capacity: 6,
+    isActive: true,
+  },
+  {
+    id: "resource-3",
+    name: "MacBook Pro #03",
+    description: "A laptop available for temporary employee use.",
+    category: "EQUIPMENT",
+    location: "IT department",
+    capacity: 1,
+    isActive: true,
+  },
+  {
+    id: "resource-4",
+    name: "Projector #02",
+    description: "A projector for meetings and presentations.",
+    category: "EQUIPMENT",
+    location: "IT department",
+    capacity: 1,
+    isActive: true,
+  },
+  {
+    id: "resource-5",
+    name: "Quiet Workspace A",
+    description: "A dedicated workspace for focused individual work.",
+    category: "WORKSPACE",
+    location: "Main office, Floor 3",
+    capacity: 1,
+    isActive: true,
+  },
+  {
+    id: "resource-6",
+    name: "Training Room",
+    description: "A flexible room for workshops and training sessions.",
+    category: "MEETING_ROOM",
+    location: "Main office, Floor 3",
+    capacity: 20,
+    isActive: false,
+  },
+];
